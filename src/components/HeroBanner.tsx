@@ -27,35 +27,13 @@ export default function HeroBanner() {
 
         {/* Video Container */}
         <div className="relative w-full max-w-5xl mx-auto aspect-video bg-gray-100 rounded-2xl overflow-hidden mb-8 shadow-lg border-4 border-gray-200">
-          <div className="absolute inset-0 flex items-center justify-center">
-            {/* Placeholder para el video */}
-            <div className="text-center">
-              <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-[#00D4FF] to-[#FF0088] flex items-center justify-center">
-                <svg
-                  className="w-10 h-10 text-white"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <p className="text-gray-500 font-medium">
-                El sistema que genera +10 llamadas de venta cada semana
-              </p>
-              <p className="text-sm text-gray-400 mt-2">
-                Alberto García López
-              </p>
-            </div>
-            {/* 
-            Para agregar tu video de Vimeo/YouTube, reemplaza este div con:
-            <iframe
-              src="TU_URL_DE_VIDEO"
-              className="w-full h-full"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            */}
-          </div>
+          <iframe
+            src="https://player.vimeo.com/video/1146566181?badge=0&autopause=0&player_id=0&app_id=58479"
+            className="w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="Video VSL"
+          ></iframe>
         </div>
 
         {/* Botón CTA */}
